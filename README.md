@@ -23,4 +23,4 @@ Just include `icanhazdevops` in your node's `run_list`:
 
 Or use it to create a server with knife:
 
-knife rackspace server create -f performance1-1  -I 7e746552-2212-41d7-b216-a1024b83b0c4  -N icanhazdevops1 -S icanhazdevops11 -r icanhazdevops
+knife rackspace server create -f performance1-1  -I 7e746552-2212-41d7-b216-a1024b83b0c4  -N icanhazdevops1 -S icanhazdevops1 -r icanhazdevops

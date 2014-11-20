@@ -11,5 +11,5 @@ platforms:
 suites:
   - name: default
     run_list:
-      - recipe[ICanHazDevops::default]
+      - recipe[icanhazdevops::default]
     attributes:
