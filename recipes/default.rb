@@ -26,5 +26,6 @@
 #
 
 include_recipe 'apache2::default'
+include_recipe 'apache2::iptables'
 include_recipe 'icanhazdevops::software'
 include_recipe 'icanhazdevops::site'
