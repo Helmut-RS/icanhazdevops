@@ -1,6 +1,6 @@
 # Encoding: utf-8
 #
-# Cookbook Name:: ICanHazDevops
+# Cookbook Name:: icanhazdevops
 # Recipe:: site
 #
 # Copyright 2014, Helmut
@@ -25,7 +25,7 @@
 # WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
 #
 
-web_app 'ICanHazDevops' do
+web_app 'icanhazdevops' do
   server_name node['hostname']
   server_aliases [node['fqdn'], 'icanhazdevops.com', 'www.icanhazdevops.com']
   docroot '/var/www/html/'

@@ -1,6 +1,6 @@
 # Encoding: utf-8
 #
-# Cookbook Name:: ICanHazDevops
+# Cookbook Name:: icanhazdevops
 # Recipe:: software
 #
 # Copyright 2014, Helmut

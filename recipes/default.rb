@@ -1,6 +1,6 @@
 # Encoding: utf-8
 #
-# Cookbook Name:: ICanHazDevops
+# Cookbook Name:: icanhazdevops
 # Recipe:: default
 #
 # Copyright 2014, Helmut
@@ -26,5 +26,5 @@
 #
 
 include_recipe 'apache2::default'
-include_recipe 'ICanHazDevops::software'
-include_recipe 'ICanHazDevops::site'
+include_recipe 'icanhazdevops::software'
+include_recipe 'icanhazdevops::site'
