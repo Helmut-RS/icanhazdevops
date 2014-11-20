@@ -1,0 +1,287 @@
+I, [2014-11-18T21:54:14.698759 #11849]  INFO -- Kitchen: -----> Starting Kitchen (v1.2.1)
+E, [2014-11-18T21:54:14.699171 #11849] ERROR -- Kitchen: ------Exception-------
+E, [2014-11-18T21:54:14.699216 #11849] ERROR -- Kitchen: Class: Kitchen::UserError
+E, [2014-11-18T21:54:14.699249 #11849] ERROR -- Kitchen: Message: Kitchen YAML file /Users/helm0749/Documents/My_Tests/DevOps1AssessmentTest_Chef/chef/ICanHazDevops/.kitchen.yml does not exist.
+E, [2014-11-18T21:54:14.699280 #11849] ERROR -- Kitchen: ------Backtrace-------
+E, [2014-11-18T21:54:14.699309 #11849] ERROR -- Kitchen: /opt/chefdk/embedded/apps/test-kitchen/lib/kitchen/loader/yaml.rb:74:in `read'
+E, [2014-11-18T21:54:14.699340 #11849] ERROR -- Kitchen: /opt/chefdk/embedded/apps/test-kitchen/lib/kitchen/config.rb:78:in `data'
+E, [2014-11-18T21:54:14.699371 #11849] ERROR -- Kitchen: /opt/chefdk/embedded/apps/test-kitchen/lib/kitchen/config.rb:66:in `suites'
+E, [2014-11-18T21:54:14.699422 #11849] ERROR -- Kitchen: /opt/chefdk/embedded/apps/test-kitchen/lib/kitchen/config.rb:90:in `filter_instances'
+E, [2014-11-18T21:54:14.699453 #11849] ERROR -- Kitchen: /opt/chefdk/embedded/apps/test-kitchen/lib/kitchen/config.rb:72:in `build_instances'
+E, [2014-11-18T21:54:14.699484 #11849] ERROR -- Kitchen: /opt/chefdk/embedded/apps/test-kitchen/lib/kitchen/config.rb:52:in `instances'
+E, [2014-11-18T21:54:14.699515 #11849] ERROR -- Kitchen: /opt/chefdk/embedded/apps/test-kitchen/lib/kitchen/command.rb:64:in `get_filtered_instances'
+E, [2014-11-18T21:54:14.699546 #11849] ERROR -- Kitchen: /opt/chefdk/embedded/apps/test-kitchen/lib/kitchen/command.rb:85:in `parse_subcommand'
+E, [2014-11-18T21:54:14.699577 #11849] ERROR -- Kitchen: /opt/chefdk/embedded/apps/test-kitchen/lib/kitchen/command/action.rb:37:in `block in call'
+E, [2014-11-18T21:54:14.699608 #11849] ERROR -- Kitchen: /opt/chefdk/embedded/lib/ruby/2.1.0/benchmark.rb:279:in `measure'
+E, [2014-11-18T21:54:14.699638 #11849] ERROR -- Kitchen: /opt/chefdk/embedded/apps/test-kitchen/lib/kitchen/command/action.rb:36:in `call'
+E, [2014-11-18T21:54:14.699669 #11849] ERROR -- Kitchen: /opt/chefdk/embedded/apps/test-kitchen/lib/kitchen/cli.rb:47:in `perform'
+E, [2014-11-18T21:54:14.699700 #11849] ERROR -- Kitchen: /opt/chefdk/embedded/apps/test-kitchen/lib/kitchen/cli.rb:118:in `block (2 levels) in <class:CLI>'
+E, [2014-11-18T21:54:14.699730 #11849] ERROR -- Kitchen: /opt/chefdk/embedded/lib/ruby/gems/2.1.0/gems/thor-0.19.1/lib/thor/command.rb:27:in `run'
+E, [2014-11-18T21:54:14.699760 #11849] ERROR -- Kitchen: /opt/chefdk/embedded/lib/ruby/gems/2.1.0/gems/thor-0.19.1/lib/thor/invocation.rb:126:in `invoke_command'
+E, [2014-11-18T21:54:14.699791 #11849] ERROR -- Kitchen: /opt/chefdk/embedded/apps/test-kitchen/lib/kitchen/cli.rb:233:in `invoke_task'
+E, [2014-11-18T21:54:14.699827 #11849] ERROR -- Kitchen: /opt/chefdk/embedded/lib/ruby/gems/2.1.0/gems/thor-0.19.1/lib/thor.rb:359:in `dispatch'
+E, [2014-11-18T21:54:14.699858 #11849] ERROR -- Kitchen: /opt/chefdk/embedded/lib/ruby/gems/2.1.0/gems/thor-0.19.1/lib/thor/base.rb:440:in `start'
+E, [2014-11-18T21:54:14.699889 #11849] ERROR -- Kitchen: /opt/chefdk/embedded/apps/test-kitchen/bin/kitchen:13:in `block in <top (required)>'
+E, [2014-11-18T21:54:14.699919 #11849] ERROR -- Kitchen: /opt/chefdk/embedded/apps/test-kitchen/lib/kitchen/errors.rb:81:in `with_friendly_errors'
+E, [2014-11-18T21:54:14.699949 #11849] ERROR -- Kitchen: /opt/chefdk/embedded/apps/test-kitchen/bin/kitchen:13:in `<top (required)>'
+E, [2014-11-18T21:54:14.699979 #11849] ERROR -- Kitchen: /usr/bin/kitchen:10:in `load'
+E, [2014-11-18T21:54:14.700008 #11849] ERROR -- Kitchen: /usr/bin/kitchen:10:in `<main>'
+E, [2014-11-18T21:54:14.700037 #11849] ERROR -- Kitchen: ----------------------
+I, [2014-11-18T21:58:12.015360 #11874]  INFO -- Kitchen: -----> Starting Kitchen (v1.2.1)
+I, [2014-11-18T21:58:14.108356 #11874]  INFO -- Kitchen: -----> Creating <default-centos-65>...
+I, [2014-11-18T21:59:23.591858 #11874]  INFO -- Kitchen: -----> Converging <default-centos-65>...
+I, [2014-11-18T22:00:03.947348 #11874]  INFO -- Kitchen: -----> Kitchen is finished. (1m51.93s)
+I, [2014-11-18T22:41:16.122676 #12151]  INFO -- Kitchen: -----> Starting Kitchen (v1.2.1)
+I, [2014-11-18T22:41:17.550183 #12151]  INFO -- Kitchen: -----> Converging <default-centos-65>...
+E, [2014-11-18T22:45:13.188368 #12151] ERROR -- Kitchen: Converge failed on instance <default-centos-65>.
+I, [2014-11-18T22:51:33.973186 #12201]  INFO -- Kitchen: -----> Starting Kitchen (v1.2.1)
+I, [2014-11-18T22:51:34.605044 #12201]  INFO -- Kitchen: -----> Converging <default-centos-65>...
+E, [2014-11-18T22:52:53.314469 #12201] ERROR -- Kitchen: Converge failed on instance <default-centos-65>.
+I, [2014-11-18T23:28:34.231562 #12347]  INFO -- Kitchen: -----> Starting Kitchen (v1.2.1)
+I, [2014-11-18T23:28:34.870562 #12347]  INFO -- Kitchen: -----> Converging <default-centos-65>...
+E, [2014-11-18T23:29:43.074370 #12347] ERROR -- Kitchen: Converge failed on instance <default-centos-65>.
+I, [2014-11-18T23:30:04.198689 #12368]  INFO -- Kitchen: -----> Starting Kitchen (v1.2.1)
+I, [2014-11-18T23:30:04.832543 #12368]  INFO -- Kitchen: -----> Creating <default-centos-66>...
+I, [2014-11-18T23:32:06.761148 #12368]  INFO -- Kitchen: -----> Converging <default-centos-66>...
+E, [2014-11-18T23:35:09.343332 #12368] ERROR -- Kitchen: Converge failed on instance <default-centos-66>.
+I, [2014-11-18T23:40:24.172782 #12531]  INFO -- Kitchen: -----> Starting Kitchen (v1.2.1)
+I, [2014-11-18T23:40:24.810188 #12531]  INFO -- Kitchen: -----> Converging <default-centos-65>...
+E, [2014-11-18T23:40:26.709652 #12531] ERROR -- Kitchen: ------Exception-------
+E, [2014-11-18T23:40:26.709745 #12531] ERROR -- Kitchen: Class: Kitchen::ActionFailed
+E, [2014-11-18T23:40:26.709790 #12531] ERROR -- Kitchen: Message: Failed to complete #converge action: [Connection refused - connect(2) for "127.0.0.1" port 2222]
+E, [2014-11-18T23:40:26.709835 #12531] ERROR -- Kitchen: ---Nested Exception---
+E, [2014-11-18T23:40:26.709878 #12531] ERROR -- Kitchen: Class: Errno::ECONNREFUSED
+E, [2014-11-18T23:40:26.709918 #12531] ERROR -- Kitchen: Message: Connection refused - connect(2) for "127.0.0.1" port 2222
+E, [2014-11-18T23:40:26.709959 #12531] ERROR -- Kitchen: ------Backtrace-------
+E, [2014-11-18T23:40:26.709996 #12531] ERROR -- Kitchen: /opt/chefdk/embedded/lib/ruby/gems/2.1.0/gems/net-ssh-2.9.1/lib/net/ssh/transport/session.rb:70:in `initialize'
+E, [2014-11-18T23:40:26.710022 #12531] ERROR -- Kitchen: /opt/chefdk/embedded/lib/ruby/gems/2.1.0/gems/net-ssh-2.9.1/lib/net/ssh/transport/session.rb:70:in `open'
+E, [2014-11-18T23:40:26.710060 #12531] ERROR -- Kitchen: /opt/chefdk/embedded/lib/ruby/gems/2.1.0/gems/net-ssh-2.9.1/lib/net/ssh/transport/session.rb:70:in `block in initialize'
+E, [2014-11-18T23:40:26.710107 #12531] ERROR -- Kitchen: /opt/chefdk/embedded/lib/ruby/2.1.0/timeout.rb:76:in `timeout'
+E, [2014-11-18T23:40:26.710144 #12531] ERROR -- Kitchen: /opt/chefdk/embedded/lib/ruby/2.1.0/timeout.rb:127:in `timeout'
+E, [2014-11-18T23:40:26.710181 #12531] ERROR -- Kitchen: /opt/chefdk/embedded/lib/ruby/gems/2.1.0/gems/net-ssh-2.9.1/lib/net/ssh/transport/session.rb:67:in `initialize'
+E, [2014-11-18T23:40:26.710219 #12531] ERROR -- Kitchen: /opt/chefdk/embedded/lib/ruby/gems/2.1.0/gems/net-ssh-2.9.1/lib/net/ssh.rb:202:in `new'
+E, [2014-11-18T23:40:26.710258 #12531] ERROR -- Kitchen: /opt/chefdk/embedded/lib/ruby/gems/2.1.0/gems/net-ssh-2.9.1/lib/net/ssh.rb:202:in `start'
+E, [2014-11-18T23:40:26.710289 #12531] ERROR -- Kitchen: /opt/chefdk/embedded/apps/test-kitchen/lib/kitchen/ssh.rb:123:in `establish_connection'
+E, [2014-11-18T23:40:26.710313 #12531] ERROR -- Kitchen: /opt/chefdk/embedded/apps/test-kitchen/lib/kitchen/ssh.rb:110:in `session'
+E, [2014-11-18T23:40:26.710348 #12531] ERROR -- Kitchen: /opt/chefdk/embedded/apps/test-kitchen/lib/kitchen/ssh.rb:145:in `exec_with_exit'
+E, [2014-11-18T23:40:26.710378 #12531] ERROR -- Kitchen: /opt/chefdk/embedded/apps/test-kitchen/lib/kitchen/ssh.rb:54:in `exec'
+E, [2014-11-18T23:40:26.710419 #12531] ERROR -- Kitchen: /opt/chefdk/embedded/apps/test-kitchen/lib/kitchen/driver/ssh_base.rb:110:in `run_remote'
+E, [2014-11-18T23:40:26.710500 #12531] ERROR -- Kitchen: /opt/chefdk/embedded/apps/test-kitchen/lib/kitchen/driver/ssh_base.rb:44:in `block in converge'
+E, [2014-11-18T23:40:26.710540 #12531] ERROR -- Kitchen: /opt/chefdk/embedded/apps/test-kitchen/lib/kitchen/ssh.rb:47:in `initialize'
+E, [2014-11-18T23:40:26.710578 #12531] ERROR -- Kitchen: /opt/chefdk/embedded/apps/test-kitchen/lib/kitchen/driver/ssh_base.rb:43:in `new'
+E, [2014-11-18T23:40:26.710614 #12531] ERROR -- Kitchen: /opt/chefdk/embedded/apps/test-kitchen/lib/kitchen/driver/ssh_base.rb:43:in `converge'
+E, [2014-11-18T23:40:26.710639 #12531] ERROR -- Kitchen: /opt/chefdk/embedded/lib/ruby/gems/2.1.0/gems/kitchen-vagrant-0.15.0/lib/kitchen/driver/vagrant.rb:75:in `converge'
+E, [2014-11-18T23:40:26.710662 #12531] ERROR -- Kitchen: /opt/chefdk/embedded/apps/test-kitchen/lib/kitchen/instance.rb:273:in `public_send'
+E, [2014-11-18T23:40:26.710685 #12531] ERROR -- Kitchen: /opt/chefdk/embedded/apps/test-kitchen/lib/kitchen/instance.rb:273:in `block in perform_action'
+E, [2014-11-18T23:40:26.710720 #12531] ERROR -- Kitchen: /opt/chefdk/embedded/apps/test-kitchen/lib/kitchen/instance.rb:308:in `call'
+E, [2014-11-18T23:40:26.710755 #12531] ERROR -- Kitchen: /opt/chefdk/embedded/apps/test-kitchen/lib/kitchen/instance.rb:308:in `synchronize_or_call'
+E, [2014-11-18T23:40:26.710786 #12531] ERROR -- Kitchen: /opt/chefdk/embedded/apps/test-kitchen/lib/kitchen/instance.rb:283:in `block in action'
+E, [2014-11-18T23:40:26.710825 #12531] ERROR -- Kitchen: /opt/chefdk/embedded/lib/ruby/2.1.0/benchmark.rb:279:in `measure'
+E, [2014-11-18T23:40:26.710861 #12531] ERROR -- Kitchen: /opt/chefdk/embedded/apps/test-kitchen/lib/kitchen/instance.rb:282:in `action'
+E, [2014-11-18T23:40:26.710898 #12531] ERROR -- Kitchen: /opt/chefdk/embedded/apps/test-kitchen/lib/kitchen/instance.rb:273:in `perform_action'
+E, [2014-11-18T23:40:26.710935 #12531] ERROR -- Kitchen: /opt/chefdk/embedded/apps/test-kitchen/lib/kitchen/instance.rb:256:in `converge_action'
+E, [2014-11-18T23:40:26.710974 #12531] ERROR -- Kitchen: /opt/chefdk/embedded/apps/test-kitchen/lib/kitchen/instance.rb:246:in `block in transition_to'
+E, [2014-11-18T23:40:26.711006 #12531] ERROR -- Kitchen: /opt/chefdk/embedded/apps/test-kitchen/lib/kitchen/instance.rb:245:in `each'
+E, [2014-11-18T23:40:26.711036 #12531] ERROR -- Kitchen: /opt/chefdk/embedded/apps/test-kitchen/lib/kitchen/instance.rb:245:in `transition_to'
+E, [2014-11-18T23:40:26.711074 #12531] ERROR -- Kitchen: /opt/chefdk/embedded/apps/test-kitchen/lib/kitchen/instance.rb:119:in `converge'
+E, [2014-11-18T23:40:26.711104 #12531] ERROR -- Kitchen: /opt/chefdk/embedded/apps/test-kitchen/lib/kitchen/command.rb:109:in `public_send'
+E, [2014-11-18T23:40:26.711140 #12531] ERROR -- Kitchen: /opt/chefdk/embedded/apps/test-kitchen/lib/kitchen/command.rb:109:in `block (2 levels) in run_action'
+E, [2014-11-18T23:40:26.711176 #12531] ERROR -- Kitchen: ----------------------
+I, [2014-11-18T23:41:14.176522 #12550]  INFO -- Kitchen: -----> Starting Kitchen (v1.2.1)
+I, [2014-11-18T23:41:14.813736 #12550]  INFO -- Kitchen: -----> Destroying <default-centos-65>...
+I, [2014-11-18T23:41:16.337659 #12550]  INFO -- Kitchen: -----> Kitchen is finished. (0m2.16s)
+I, [2014-11-18T23:41:25.669906 #12578]  INFO -- Kitchen: -----> Starting Kitchen (v1.2.1)
+I, [2014-11-18T23:41:26.309795 #12578]  INFO -- Kitchen: -----> Creating <default-centos-65>...
+I, [2014-11-18T23:42:26.940331 #12578]  INFO -- Kitchen: -----> Converging <default-centos-65>...
+E, [2014-11-18T23:46:27.528692 #12578] ERROR -- Kitchen: Converge failed on instance <default-centos-65>.
+I, [2014-11-18T23:50:50.581148 #12727]  INFO -- Kitchen: -----> Starting Kitchen (v1.2.1)
+I, [2014-11-18T23:50:51.228876 #12727]  INFO -- Kitchen: -----> Destroying <default-centos-65>...
+I, [2014-11-18T23:50:55.123036 #12727]  INFO -- Kitchen: -----> Kitchen is finished. (0m4.54s)
+I, [2014-11-18T23:51:57.537344 #12777]  INFO -- Kitchen: -----> Starting Kitchen (v1.2.1)
+I, [2014-11-18T23:51:58.182986 #12777]  INFO -- Kitchen: -----> Creating <default-centos-65>...
+I, [2014-11-18T23:52:53.761253 #12777]  INFO -- Kitchen: -----> Converging <default-centos-65>...
+E, [2014-11-18T23:56:44.456280 #12777] ERROR -- Kitchen: Converge failed on instance <default-centos-65>.
+I, [2014-11-19T00:48:29.620913 #13198]  INFO -- Kitchen: -----> Starting Kitchen (v1.2.1)
+I, [2014-11-19T00:48:31.250991 #13198]  INFO -- Kitchen: -----> Converging <default-centos-65>...
+E, [2014-11-19T00:49:08.384344 #13198] ERROR -- Kitchen: Converge failed on instance <default-centos-65>.
+I, [2014-11-19T00:50:24.637167 #13224]  INFO -- Kitchen: -----> Starting Kitchen (v1.2.1)
+I, [2014-11-19T00:50:25.303066 #13224]  INFO -- Kitchen: -----> Converging <default-centos-65>...
+E, [2014-11-19T00:50:51.886809 #13224] ERROR -- Kitchen: Converge failed on instance <default-centos-65>.
+I, [2014-11-19T01:03:46.527204 #13301]  INFO -- Kitchen: -----> Starting Kitchen (v1.2.1)
+I, [2014-11-19T01:03:47.221046 #13301]  INFO -- Kitchen: -----> Converging <default-centos-65>...
+E, [2014-11-19T01:05:35.525659 #13301] ERROR -- Kitchen: Converge failed on instance <default-centos-65>.
+I, [2014-11-19T01:10:25.360681 #13349]  INFO -- Kitchen: -----> Starting Kitchen (v1.2.1)
+I, [2014-11-19T01:10:26.011352 #13349]  INFO -- Kitchen: -----> Converging <default-centos-65>...
+E, [2014-11-19T01:11:05.874054 #13349] ERROR -- Kitchen: Converge failed on instance <default-centos-65>.
+I, [2014-11-19T01:21:26.770916 #13413]  INFO -- Kitchen: -----> Starting Kitchen (v1.2.1)
+I, [2014-11-19T01:21:27.414346 #13413]  INFO -- Kitchen: -----> Destroying <default-centos-65>...
+I, [2014-11-19T01:21:33.753298 #13413]  INFO -- Kitchen: -----> Kitchen is finished. (0m6.98s)
+I, [2014-11-19T01:21:37.097793 #13457]  INFO -- Kitchen: -----> Starting Kitchen (v1.2.1)
+I, [2014-11-19T01:21:37.738538 #13457]  INFO -- Kitchen: -----> Creating <default-centos-65>...
+I, [2014-11-19T01:22:41.191940 #13457]  INFO -- Kitchen: -----> Converging <default-centos-65>...
+E, [2014-11-19T01:26:03.940861 #13457] ERROR -- Kitchen: Converge failed on instance <default-centos-65>.
+I, [2014-11-19T01:26:38.255299 #13580]  INFO -- Kitchen: -----> Starting Kitchen (v1.2.1)
+I, [2014-11-19T01:26:39.465075 #13580]  INFO -- Kitchen: -----> Converging <default-centos-65>...
+E, [2014-11-19T01:26:48.824103 #13580] ERROR -- Kitchen: Converge failed on instance <default-centos-65>.
+I, [2014-11-19T01:35:30.550988 #13704]  INFO -- Kitchen: -----> Starting Kitchen (v1.2.1)
+I, [2014-11-19T01:35:31.224043 #13704]  INFO -- Kitchen: -----> Converging <default-centos-65>...
+E, [2014-11-19T01:35:40.322343 #13704] ERROR -- Kitchen: Converge failed on instance <default-centos-65>.
+I, [2014-11-19T01:40:07.648033 #13743]  INFO -- Kitchen: -----> Starting Kitchen (v1.2.1)
+I, [2014-11-19T01:40:08.289384 #13743]  INFO -- Kitchen: -----> Converging <default-centos-65>...
+E, [2014-11-19T01:40:17.432098 #13743] ERROR -- Kitchen: Converge failed on instance <default-centos-65>.
+I, [2014-11-19T02:08:53.761249 #13862]  INFO -- Kitchen: -----> Starting Kitchen (v1.2.1)
+I, [2014-11-19T02:08:54.402483 #13862]  INFO -- Kitchen: -----> Converging <default-centos-65>...
+E, [2014-11-19T02:09:13.478125 #13862] ERROR -- Kitchen: Converge failed on instance <default-centos-65>.
+I, [2014-11-19T02:13:36.727002 #13963]  INFO -- Kitchen: -----> Starting Kitchen (v1.2.1)
+I, [2014-11-19T02:13:37.372302 #13963]  INFO -- Kitchen: -----> Converging <default-centos-65>...
+E, [2014-11-19T02:13:45.366753 #13963] ERROR -- Kitchen: Converge failed on instance <default-centos-65>.
+I, [2014-11-19T02:28:08.345647 #14027]  INFO -- Kitchen: -----> Starting Kitchen (v1.2.1)
+I, [2014-11-19T02:28:08.995746 #14027]  INFO -- Kitchen: -----> Destroying <default-centos-65>...
+I, [2014-11-19T02:28:14.922353 #14027]  INFO -- Kitchen: -----> Kitchen is finished. (0m6.58s)
+I, [2014-11-19T02:28:19.643539 #14071]  INFO -- Kitchen: -----> Starting Kitchen (v1.2.1)
+I, [2014-11-19T02:28:20.326836 #14071]  INFO -- Kitchen: -----> Creating <default-centos-65>...
+I, [2014-11-19T02:29:18.280991 #14071]  INFO -- Kitchen: -----> Converging <default-centos-65>...
+I, [2014-11-19T02:34:04.893861 #14071]  INFO -- Kitchen: -----> Kitchen is finished. (5m45.25s)
+I, [2014-11-19T02:39:16.919140 #14282]  INFO -- Kitchen: -----> Starting Kitchen (v1.2.1)
+I, [2014-11-19T02:39:17.581188 #14282]  INFO -- Kitchen: -----> Destroying <default-centos-65>...
+I, [2014-11-19T02:39:22.844605 #14282]  INFO -- Kitchen: -----> Kitchen is finished. (0m5.93s)
+I, [2014-11-19T02:39:29.205517 #14326]  INFO -- Kitchen: -----> Starting Kitchen (v1.2.1)
+I, [2014-11-19T02:39:29.895395 #14326]  INFO -- Kitchen: -----> Creating <default-centos-65>...
+I, [2014-11-19T02:40:24.800119 #14326]  INFO -- Kitchen: -----> Converging <default-centos-65>...
+I, [2014-11-19T02:45:07.249313 #14326]  INFO -- Kitchen: -----> Kitchen is finished. (5m38.04s)
+I, [2014-11-20T02:05:34.937301 #9046]  INFO -- Kitchen: -----> Starting Kitchen (v1.2.1)
+I, [2014-11-20T02:06:20.723855 #9061]  INFO -- Kitchen: -----> Starting Kitchen (v1.2.1)
+I, [2014-11-20T02:06:22.791189 #9061]  INFO -- Kitchen: -----> Converging <default-centos-65>...
+E, [2014-11-20T02:06:45.382403 #9061] ERROR -- Kitchen: ------Exception-------
+E, [2014-11-20T02:06:45.382465 #9061] ERROR -- Kitchen: Class: Kitchen::ActionFailed
+E, [2014-11-20T02:06:45.382491 #9061] ERROR -- Kitchen: Message: Failed to complete #converge action: [Connection refused - connect(2) for "127.0.0.1" port 2222]
+E, [2014-11-20T02:06:45.382516 #9061] ERROR -- Kitchen: ---Nested Exception---
+E, [2014-11-20T02:06:45.382595 #9061] ERROR -- Kitchen: Class: Errno::ECONNREFUSED
+E, [2014-11-20T02:06:45.382624 #9061] ERROR -- Kitchen: Message: Connection refused - connect(2) for "127.0.0.1" port 2222
+E, [2014-11-20T02:06:45.382653 #9061] ERROR -- Kitchen: ------Backtrace-------
+E, [2014-11-20T02:06:45.382717 #9061] ERROR -- Kitchen: /opt/chefdk/embedded/lib/ruby/gems/2.1.0/gems/net-ssh-2.9.1/lib/net/ssh/transport/session.rb:70:in `initialize'
+E, [2014-11-20T02:06:45.382746 #9061] ERROR -- Kitchen: /opt/chefdk/embedded/lib/ruby/gems/2.1.0/gems/net-ssh-2.9.1/lib/net/ssh/transport/session.rb:70:in `open'
+E, [2014-11-20T02:06:45.382769 #9061] ERROR -- Kitchen: /opt/chefdk/embedded/lib/ruby/gems/2.1.0/gems/net-ssh-2.9.1/lib/net/ssh/transport/session.rb:70:in `block in initialize'
+E, [2014-11-20T02:06:45.382791 #9061] ERROR -- Kitchen: /opt/chefdk/embedded/lib/ruby/2.1.0/timeout.rb:76:in `timeout'
+E, [2014-11-20T02:06:45.382822 #9061] ERROR -- Kitchen: /opt/chefdk/embedded/lib/ruby/2.1.0/timeout.rb:127:in `timeout'
+E, [2014-11-20T02:06:45.382843 #9061] ERROR -- Kitchen: /opt/chefdk/embedded/lib/ruby/gems/2.1.0/gems/net-ssh-2.9.1/lib/net/ssh/transport/session.rb:67:in `initialize'
+E, [2014-11-20T02:06:45.382864 #9061] ERROR -- Kitchen: /opt/chefdk/embedded/lib/ruby/gems/2.1.0/gems/net-ssh-2.9.1/lib/net/ssh.rb:202:in `new'
+E, [2014-11-20T02:06:45.382885 #9061] ERROR -- Kitchen: /opt/chefdk/embedded/lib/ruby/gems/2.1.0/gems/net-ssh-2.9.1/lib/net/ssh.rb:202:in `start'
+E, [2014-11-20T02:06:45.382906 #9061] ERROR -- Kitchen: /opt/chefdk/embedded/apps/test-kitchen/lib/kitchen/ssh.rb:123:in `establish_connection'
+E, [2014-11-20T02:06:45.382926 #9061] ERROR -- Kitchen: /opt/chefdk/embedded/apps/test-kitchen/lib/kitchen/ssh.rb:110:in `session'
+E, [2014-11-20T02:06:45.382947 #9061] ERROR -- Kitchen: /opt/chefdk/embedded/apps/test-kitchen/lib/kitchen/ssh.rb:145:in `exec_with_exit'
+E, [2014-11-20T02:06:45.382968 #9061] ERROR -- Kitchen: /opt/chefdk/embedded/apps/test-kitchen/lib/kitchen/ssh.rb:54:in `exec'
+E, [2014-11-20T02:06:45.382988 #9061] ERROR -- Kitchen: /opt/chefdk/embedded/apps/test-kitchen/lib/kitchen/driver/ssh_base.rb:110:in `run_remote'
+E, [2014-11-20T02:06:45.383025 #9061] ERROR -- Kitchen: /opt/chefdk/embedded/apps/test-kitchen/lib/kitchen/driver/ssh_base.rb:44:in `block in converge'
+E, [2014-11-20T02:06:45.383046 #9061] ERROR -- Kitchen: /opt/chefdk/embedded/apps/test-kitchen/lib/kitchen/ssh.rb:47:in `initialize'
+E, [2014-11-20T02:06:45.383067 #9061] ERROR -- Kitchen: /opt/chefdk/embedded/apps/test-kitchen/lib/kitchen/driver/ssh_base.rb:43:in `new'
+E, [2014-11-20T02:06:45.383088 #9061] ERROR -- Kitchen: /opt/chefdk/embedded/apps/test-kitchen/lib/kitchen/driver/ssh_base.rb:43:in `converge'
+E, [2014-11-20T02:06:45.383120 #9061] ERROR -- Kitchen: /opt/chefdk/embedded/lib/ruby/gems/2.1.0/gems/kitchen-vagrant-0.15.0/lib/kitchen/driver/vagrant.rb:75:in `converge'
+E, [2014-11-20T02:06:45.383143 #9061] ERROR -- Kitchen: /opt/chefdk/embedded/apps/test-kitchen/lib/kitchen/instance.rb:273:in `public_send'
+E, [2014-11-20T02:06:45.383164 #9061] ERROR -- Kitchen: /opt/chefdk/embedded/apps/test-kitchen/lib/kitchen/instance.rb:273:in `block in perform_action'
+E, [2014-11-20T02:06:45.383185 #9061] ERROR -- Kitchen: /opt/chefdk/embedded/apps/test-kitchen/lib/kitchen/instance.rb:308:in `call'
+E, [2014-11-20T02:06:45.383206 #9061] ERROR -- Kitchen: /opt/chefdk/embedded/apps/test-kitchen/lib/kitchen/instance.rb:308:in `synchronize_or_call'
+E, [2014-11-20T02:06:45.383226 #9061] ERROR -- Kitchen: /opt/chefdk/embedded/apps/test-kitchen/lib/kitchen/instance.rb:283:in `block in action'
+E, [2014-11-20T02:06:45.383247 #9061] ERROR -- Kitchen: /opt/chefdk/embedded/lib/ruby/2.1.0/benchmark.rb:279:in `measure'
+E, [2014-11-20T02:06:45.383268 #9061] ERROR -- Kitchen: /opt/chefdk/embedded/apps/test-kitchen/lib/kitchen/instance.rb:282:in `action'
+E, [2014-11-20T02:06:45.383288 #9061] ERROR -- Kitchen: /opt/chefdk/embedded/apps/test-kitchen/lib/kitchen/instance.rb:273:in `perform_action'
+E, [2014-11-20T02:06:45.383324 #9061] ERROR -- Kitchen: /opt/chefdk/embedded/apps/test-kitchen/lib/kitchen/instance.rb:256:in `converge_action'
+E, [2014-11-20T02:06:45.383346 #9061] ERROR -- Kitchen: /opt/chefdk/embedded/apps/test-kitchen/lib/kitchen/instance.rb:246:in `block in transition_to'
+E, [2014-11-20T02:06:45.383367 #9061] ERROR -- Kitchen: /opt/chefdk/embedded/apps/test-kitchen/lib/kitchen/instance.rb:245:in `each'
+E, [2014-11-20T02:06:45.383387 #9061] ERROR -- Kitchen: /opt/chefdk/embedded/apps/test-kitchen/lib/kitchen/instance.rb:245:in `transition_to'
+E, [2014-11-20T02:06:45.383408 #9061] ERROR -- Kitchen: /opt/chefdk/embedded/apps/test-kitchen/lib/kitchen/instance.rb:119:in `converge'
+E, [2014-11-20T02:06:45.383428 #9061] ERROR -- Kitchen: /opt/chefdk/embedded/apps/test-kitchen/lib/kitchen/command.rb:109:in `public_send'
+E, [2014-11-20T02:06:45.383449 #9061] ERROR -- Kitchen: /opt/chefdk/embedded/apps/test-kitchen/lib/kitchen/command.rb:109:in `block (2 levels) in run_action'
+E, [2014-11-20T02:06:45.383469 #9061] ERROR -- Kitchen: ----------------------
+I, [2014-11-20T02:07:13.215699 #9087]  INFO -- Kitchen: -----> Starting Kitchen (v1.2.1)
+I, [2014-11-20T02:07:13.916180 #9087]  INFO -- Kitchen: -----> Destroying <default-centos-65>...
+I, [2014-11-20T02:07:19.447563 #9087]  INFO -- Kitchen: -----> Kitchen is finished. (0m6.23s)
+I, [2014-11-20T02:07:59.805448 #9126]  INFO -- Kitchen: -----> Starting Kitchen (v1.2.1)
+I, [2014-11-20T02:08:00.448781 #9126]  INFO -- Kitchen: -----> Creating <default-centos-65>...
+I, [2014-11-20T02:09:06.682426 #9126]  INFO -- Kitchen: -----> Converging <default-centos-65>...
+E, [2014-11-20T02:09:31.986388 #9126] ERROR -- Kitchen: Converge failed on instance <default-centos-65>.
+I, [2014-11-20T02:11:48.862020 #9249]  INFO -- Kitchen: -----> Starting Kitchen (v1.2.1)
+I, [2014-11-20T02:11:49.672362 #9249]  INFO -- Kitchen: -----> Converging <default-centos-65>...
+E, [2014-11-20T02:13:53.018118 #9249] ERROR -- Kitchen: Converge failed on instance <default-centos-65>.
+I, [2014-11-20T02:15:45.896463 #9274]  INFO -- Kitchen: -----> Starting Kitchen (v1.2.1)
+I, [2014-11-20T02:15:46.579460 #9274]  INFO -- Kitchen: -----> Converging <default-centos-65>...
+I, [2014-11-20T02:18:12.680628 #9274]  INFO -- Kitchen: -----> Kitchen is finished. (2m26.78s)
+I, [2014-11-20T02:32:14.410509 #9419]  INFO -- Kitchen: -----> Starting Kitchen (v1.2.1)
+I, [2014-11-20T02:32:15.086133 #9419]  INFO -- Kitchen: -----> Converging <default-centos-65>...
+E, [2014-11-20T02:32:23.288333 #9419] ERROR -- Kitchen: Converge failed on instance <default-centos-65>.
+I, [2014-11-20T02:44:29.098511 #9473]  INFO -- Kitchen: -----> Starting Kitchen (v1.2.1)
+I, [2014-11-20T02:44:29.764562 #9473]  INFO -- Kitchen: -----> Converging <default-centos-65>...
+I, [2014-11-20T02:44:38.055669 #9473]  INFO -- Kitchen: -----> Kitchen is finished. (0m8.96s)
+I, [2014-11-20T02:48:40.890761 #9499]  INFO -- Kitchen: -----> Starting Kitchen (v1.2.1)
+I, [2014-11-20T02:48:41.575587 #9499]  INFO -- Kitchen: -----> Converging <default-centos-65>...
+I, [2014-11-20T02:48:49.464148 #9499]  INFO -- Kitchen: -----> Kitchen is finished. (0m8.57s)
+I, [2014-11-20T02:56:57.885681 #9537]  INFO -- Kitchen: -----> Starting Kitchen (v1.2.1)
+I, [2014-11-20T02:56:58.541968 #9537]  INFO -- Kitchen: -----> Converging <default-centos-65>...
+E, [2014-11-20T02:57:04.159262 #9537] ERROR -- Kitchen: Converge failed on instance <default-centos-65>.
+I, [2014-11-20T03:01:53.101501 #9580]  INFO -- Kitchen: -----> Starting Kitchen (v1.2.1)
+I, [2014-11-20T03:01:53.771319 #9580]  INFO -- Kitchen: -----> Converging <default-centos-65>...
+I, [2014-11-20T03:02:01.439835 #9580]  INFO -- Kitchen: -----> Kitchen is finished. (0m8.34s)
+I, [2014-11-20T03:23:33.162085 #9704]  INFO -- Kitchen: -----> Starting Kitchen (v1.2.1)
+I, [2014-11-20T03:23:33.825300 #9704]  INFO -- Kitchen: -----> Converging <default-centos-65>...
+E, [2014-11-20T03:23:43.759864 #9704] ERROR -- Kitchen: Converge failed on instance <default-centos-65>.
+I, [2014-11-20T03:26:41.169810 #9735]  INFO -- Kitchen: -----> Starting Kitchen (v1.2.1)
+I, [2014-11-20T03:26:41.880383 #9735]  INFO -- Kitchen: -----> Converging <default-centos-65>...
+E, [2014-11-20T03:26:49.515112 #9735] ERROR -- Kitchen: Converge failed on instance <default-centos-65>.
+I, [2014-11-20T03:27:54.778287 #9750]  INFO -- Kitchen: -----> Starting Kitchen (v1.2.1)
+I, [2014-11-20T03:27:55.425739 #9750]  INFO -- Kitchen: -----> Converging <default-centos-65>...
+E, [2014-11-20T03:28:03.100455 #9750] ERROR -- Kitchen: Converge failed on instance <default-centos-65>.
+I, [2014-11-20T03:31:10.442497 #9779]  INFO -- Kitchen: -----> Starting Kitchen (v1.2.1)
+I, [2014-11-20T03:31:11.109025 #9779]  INFO -- Kitchen: -----> Converging <default-centos-65>...
+I, [2014-11-20T03:31:20.020521 #9779]  INFO -- Kitchen: -----> Kitchen is finished. (0m9.58s)
+I, [2014-11-20T03:38:34.316666 #9820]  INFO -- Kitchen: -----> Starting Kitchen (v1.2.1)
+I, [2014-11-20T03:38:34.976865 #9820]  INFO -- Kitchen: -----> Converging <default-centos-65>...
+I, [2014-11-20T03:38:42.976708 #9820]  INFO -- Kitchen: -----> Kitchen is finished. (0m8.66s)
+I, [2014-11-20T03:44:33.638122 #9863]  INFO -- Kitchen: -----> Starting Kitchen (v1.2.1)
+I, [2014-11-20T03:44:34.289306 #9863]  INFO -- Kitchen: -----> Converging <default-centos-65>...
+E, [2014-11-20T03:44:42.090451 #9863] ERROR -- Kitchen: Converge failed on instance <default-centos-65>.
+I, [2014-11-20T03:55:44.817715 #9986]  INFO -- Kitchen: -----> Starting Kitchen (v1.2.1)
+I, [2014-11-20T03:55:45.475268 #9986]  INFO -- Kitchen: -----> Converging <default-centos-65>...
+E, [2014-11-20T03:55:51.157595 #9986] ERROR -- Kitchen: Converge failed on instance <default-centos-65>.
+I, [2014-11-20T03:57:25.667208 #10006]  INFO -- Kitchen: -----> Starting Kitchen (v1.2.1)
+I, [2014-11-20T03:57:26.319757 #10006]  INFO -- Kitchen: -----> Converging <default-centos-65>...
+E, [2014-11-20T03:57:31.864100 #10006] ERROR -- Kitchen: Converge failed on instance <default-centos-65>.
+I, [2014-11-20T04:10:04.982127 #10052]  INFO -- Kitchen: -----> Starting Kitchen (v1.2.1)
+I, [2014-11-20T04:10:05.646762 #10052]  INFO -- Kitchen: -----> Converging <default-centos-65>...
+E, [2014-11-20T04:10:11.253040 #10052] ERROR -- Kitchen: Converge failed on instance <default-centos-65>.
+I, [2014-11-20T04:11:18.958451 #10068]  INFO -- Kitchen: -----> Starting Kitchen (v1.2.1)
+I, [2014-11-20T04:11:19.606777 #10068]  INFO -- Kitchen: -----> Converging <default-centos-65>...
+E, [2014-11-20T04:11:25.271361 #10068] ERROR -- Kitchen: Converge failed on instance <default-centos-65>.
+I, [2014-11-20T04:12:15.754922 #10082]  INFO -- Kitchen: -----> Starting Kitchen (v1.2.1)
+I, [2014-11-20T04:12:16.398716 #10082]  INFO -- Kitchen: -----> Converging <default-centos-65>...
+E, [2014-11-20T04:12:21.707697 #10082] ERROR -- Kitchen: Converge failed on instance <default-centos-65>.
+I, [2014-11-20T04:13:58.985781 #10100]  INFO -- Kitchen: -----> Starting Kitchen (v1.2.1)
+I, [2014-11-20T04:13:59.648090 #10100]  INFO -- Kitchen: -----> Converging <default-centos-65>...
+E, [2014-11-20T04:14:05.078989 #10100] ERROR -- Kitchen: Converge failed on instance <default-centos-65>.
+I, [2014-11-20T04:15:15.932162 #10120]  INFO -- Kitchen: -----> Starting Kitchen (v1.2.1)
+I, [2014-11-20T04:15:16.595119 #10120]  INFO -- Kitchen: -----> Converging <default-centos-65>...
+E, [2014-11-20T04:15:24.675680 #10120] ERROR -- Kitchen: Converge failed on instance <default-centos-65>.
+I, [2014-11-20T04:17:11.280721 #10138]  INFO -- Kitchen: -----> Starting Kitchen (v1.2.1)
+I, [2014-11-20T04:17:11.947903 #10138]  INFO -- Kitchen: -----> Converging <default-centos-65>...
+I, [2014-11-20T04:17:19.736368 #10138]  INFO -- Kitchen: -----> Kitchen is finished. (0m8.46s)
+I, [2014-11-20T04:19:04.209131 #10154]  INFO -- Kitchen: -----> Starting Kitchen (v1.2.1)
+I, [2014-11-20T04:19:04.861424 #10154]  INFO -- Kitchen: -----> Converging <default-centos-65>...
+I, [2014-11-20T04:19:12.805467 #10154]  INFO -- Kitchen: -----> Kitchen is finished. (0m8.60s)
+I, [2014-11-20T04:20:03.390378 #10169]  INFO -- Kitchen: -----> Starting Kitchen (v1.2.1)
+I, [2014-11-20T04:20:04.040739 #10169]  INFO -- Kitchen: -----> Converging <default-centos-65>...
+I, [2014-11-20T04:20:11.781086 #10169]  INFO -- Kitchen: -----> Kitchen is finished. (0m8.39s)
+I, [2014-11-20T04:29:09.299378 #10205]  INFO -- Kitchen: -----> Starting Kitchen (v1.2.1)
+I, [2014-11-20T04:29:09.952661 #10205]  INFO -- Kitchen: -----> Converging <default-centos-65>...
+I, [2014-11-20T04:29:18.058973 #10205]  INFO -- Kitchen: -----> Kitchen is finished. (0m8.76s)
+I, [2014-11-20T04:31:15.587425 #10228]  INFO -- Kitchen: -----> Starting Kitchen (v1.2.1)
+I, [2014-11-20T04:31:16.245168 #10228]  INFO -- Kitchen: -----> Converging <default-centos-65>...
+E, [2014-11-20T04:31:21.605069 #10228] ERROR -- Kitchen: Converge failed on instance <default-centos-65>.
+I, [2014-11-20T04:33:00.054075 #10244]  INFO -- Kitchen: -----> Starting Kitchen (v1.2.1)
+I, [2014-11-20T04:33:00.702763 #10244]  INFO -- Kitchen: -----> Converging <default-centos-65>...
+I, [2014-11-20T04:33:08.468280 #10244]  INFO -- Kitchen: -----> Kitchen is finished. (0m8.41s)
+I, [2014-11-20T04:39:35.196850 #10284]  INFO -- Kitchen: -----> Starting Kitchen (v1.2.1)
+I, [2014-11-20T04:39:35.841510 #10284]  INFO -- Kitchen: -----> Destroying <default-centos-65>...
+I, [2014-11-20T04:39:40.660705 #10284]  INFO -- Kitchen: -----> Kitchen is finished. (0m5.46s)
+I, [2014-11-20T04:39:44.675464 #10327]  INFO -- Kitchen: -----> Starting Kitchen (v1.2.1)
+I, [2014-11-20T04:39:45.323241 #10327]  INFO -- Kitchen: -----> Creating <default-centos-65>...
+I, [2014-11-20T04:40:44.475415 #10327]  INFO -- Kitchen: -----> Converging <default-centos-65>...
+I, [2014-11-20T04:45:06.051446 #10327]  INFO -- Kitchen: -----> Kitchen is finished. (5m21.38s)
